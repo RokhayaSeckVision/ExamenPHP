@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.black-fill {
+	background: rgba(99, 15, 15, 0.7);
+	min-height: 100vh;
+}
+
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	width: 450px;
+}
+.n-table {
+	max-width: 800px;
+}
+.form-w {
+	max-width: 600px;
+	width: 100%;
+}
